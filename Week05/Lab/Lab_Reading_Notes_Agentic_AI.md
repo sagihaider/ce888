@@ -1,5 +1,5 @@
 # Reading Notes: Introduction to AI Agents and Agentic AI
-## MSc Artificial Intelligence – Level 7
+## CE888 - Data Science and Decision-Making
 ## Background Material for Lab Sessions
 
 ---
