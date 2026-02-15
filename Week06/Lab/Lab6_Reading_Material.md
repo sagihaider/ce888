@@ -840,21 +840,6 @@ pairs.sort(key=lambda x: x[0], reverse=True)
    - Lower is better
    - Square root of mean squared errors
 
-### Success Checklist
-
-Before starting the graded lab:
-
-- [ ] I understand what time series data is
-- [ ] I can calculate consecutive differences
-- [ ] I can compute moving averages
-- [ ] I understand exponential smoothing
-- [ ] I know how to calculate cosine similarity
-- [ ] I can handle NaN values in ratings
-- [ ] I understand weighted averages
-- [ ] I can calculate RMSE
-- [ ] I've practiced with the examples
-- [ ] I've attempted the practice questions
-
 ---
 
 ## Next Steps
