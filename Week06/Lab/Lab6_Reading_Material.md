@@ -3,8 +3,8 @@
 
 **Prepared for:** MSc Data Science and Decision Making Students  
 **Module:** CE888  
-**Topic:** Introduction to Time Series and Collaborative Filtering  
-**Reading Time:** 45-60 minutes
+**Topic:** Introduction to Time Series and Recommended Systems
+
 
 ---
 
@@ -865,7 +865,7 @@ Before starting the graded lab:
 4. **Ask questions** if anything is unclear
 5. **Attempt the graded lab** when you feel confident
 
-**Good luck! You've got this! 🚀**
+**Good luck! You've got this! **
 
 ---
 
@@ -873,4 +873,3 @@ Before starting the graded lab:
 
 **Prepared by:** CE888 Teaching Team  
 **Last Updated:** February 2026  
-**Questions?** Post in the discussion forum or attend office hours
