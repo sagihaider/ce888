@@ -167,7 +167,7 @@ model.compile(optimizer='rmsprop', loss='binary_crossentropy', metrics=['accurac
 
 ---
 
-## 🔑 Key Concepts Cheat Sheet
+## Key Concepts Cheat Sheet
 
 ```
 @           →  matrix multiplication (same as np.dot for 2D)
@@ -180,36 +180,6 @@ return_sequences=False  →  pass ONLY the last hidden state forward
 pad_sequences           →  make all sequences the same length with zeros
 Embedding   →  learnable lookup table: integer index → dense vector
 ```
-
----
-
-## 📝 Graded Questions Summary
-
-| # | Topic | Difficulty | Points | Keras? |
-|---|-------|-----------|--------|--------|
-| Q1 | Simulate RNN Forward Pass | Easy | 10 | ❌ |
-| Q2 | Pad Variable-Length Sequences | Easy | 10 | ✅ |
-| Q3 | Build Stacked SimpleRNN Model | Medium | 15 | ✅ |
-| Q4 | Build LSTM Text Classifier | Medium | 15 | ✅ |
-| Q5 | Compute RNN Output Shape | Easy | 10 | ❌ |
-| Q6 | Count SimpleRNN Stack Parameters | Medium | 15 | ❌ |
-| Q7 | Word-Level Tokenizer from Scratch | Medium | 15 | ❌ |
-| Q8 | Compare LSTM vs SimpleRNN Params | Medium | 15 | ❌ |
-| | **Total** | | **105** | |
-
-> ✅ = requires TensorFlow/Keras  
-> ❌ = pure Python / NumPy only
-
----
-
-## 💡 Tips for the Graded Questions
-
-1. **Read the docstring carefully** — the expected input/output types (list vs array, int vs float) are specified there.
-2. **Q1:** Don't forget `h_0 = zeros`. The initial state must exist before the loop starts.
-3. **Q3:** The most common mistake is forgetting `return_sequences=True` on intermediate layers. If you only have one RNN layer, `return_sequences` doesn't matter.
-4. **Q6 & Q8:** Work out the maths by hand first on paper, then code it — it's easier to verify.
-5. **Q7:** Remember that `0` is reserved for unknown words. Real word indices start at `1`.
-6. **Q8:** The ratio between LSTM and SimpleRNN parameters is always **exactly 4.0** regardless of layer size — make sure your formula reflects that.
 
 ---
 
