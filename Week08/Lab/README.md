@@ -1,4 +1,4 @@
-# 🧠 CE888 – Lab 5: Learning from Sequences with Recurrent Neural Networks
+# CE888 – Lab 8: Learning from Sequences with Recurrent Neural Networks
 
 > **Module:** CE888 Data Science and Decision Making  
 > **Topic:** Recurrent Neural Networks (RNNs), LSTMs, and Text Processing  
