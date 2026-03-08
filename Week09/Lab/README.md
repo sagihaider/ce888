@@ -1,4 +1,4 @@
-# Lab 08: Dataset Shift & Transfer Learning
+# Lab 09: Dataset Shift & Transfer Learning
 
 > **Course**: Data Science and Decision Making| **School**: Computer Science and Electronics Engineering  
 > **Prepared by**: Dr Haider Raza, Senior Lecturer in AI, University of Essex  
